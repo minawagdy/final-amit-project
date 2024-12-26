@@ -6,7 +6,7 @@ Feature:F01_Product | user add product successfully
 
         # Step 1: Sign Up
         When I click on the Sign Up button in the header
-        And I fill in the username "minawa18" and password "mina@123" in the sign-up form
+        And I fill in the username "mina_wagdy" and password "mina@123" in the sign-up form
         And I click on the "Sign Up" button
         Then I should see a success message: "Sign up successful."
     @Smoke_Testing
@@ -15,7 +15,7 @@ Feature:F01_Product | user add product successfully
              #Step 1 : login
              #Given Open the browser and goto "https://www.demoblaze.com"
             When User click on the log in button in the header
-            And user fill in the username "minawa18" and password "mina@123" in the login form
+            And user fill in the username "mina_wagdy" and password "mina@123" in the login form
             And  user click on the log in button
 
             #Step 2 : Add Products to Cart
